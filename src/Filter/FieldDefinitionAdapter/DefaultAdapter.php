@@ -27,8 +27,8 @@ use Pimcore\Model\DataObject\AbstractObject;
 use Pimcore\Model\DataObject\ClassDefinition\Data;
 use Pimcore\Model\DataObject\Concrete;
 use Pimcore\Model\DataObject\Localizedfield;
-use Pimcore\Normalizer\NormalizerInterface;
 use Pimcore\Model\Translation;
+use Pimcore\Normalizer\NormalizerInterface;
 
 class DefaultAdapter implements FieldDefinitionAdapterInterface
 {
