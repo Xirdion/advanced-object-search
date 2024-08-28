@@ -475,7 +475,7 @@ class Service
         if ($this->isExcludedClass($object->getClassName())) {
             return;
         }
-        
+
         $params = [
             'index' => $this->getIndexName($object->getClassName()),
             'id' => $object->getId()
