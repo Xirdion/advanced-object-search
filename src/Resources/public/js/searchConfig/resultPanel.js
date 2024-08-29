@@ -480,7 +480,7 @@ pimcore.bundle.advancedObjectSearch.searchConfig.resultPanel = Class.create(pimc
         var jobs = [];
 
         var fields = this.getGridConfig().columns;
-        var fieldKeys = this.fieldsKeys2(fields); // Object.keys(fields);
+        var fieldKeys = this.fieldsKeys2(fields); 
 
 
         //create the ids array which contains chosen rows to export
