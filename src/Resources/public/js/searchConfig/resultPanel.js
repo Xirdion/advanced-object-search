@@ -510,7 +510,7 @@ pimcore.bundle.advancedObjectSearch.searchConfig.resultPanel = Class.create(pimc
                 var rdata = Ext.decode(response.responseText);
 
                 var fields = this.getGridConfig().columns;
-				var fieldKeys = this.fieldsKeys2(fields); // Object.keys(fields);
+				var fieldKeys = this.mapRequestParameter(fields); 
 
 
                 if (rdata.success && rdata.jobs) {
