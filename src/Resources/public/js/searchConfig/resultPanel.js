@@ -520,10 +520,8 @@ pimcore.bundle.advancedObjectSearch.searchConfig.resultPanel = Class.create(pimc
             }.bind(this)
         });
     },
-	
-	//temp fix 
-	   
-	fieldsKeys2: function(fields )
+   
+	mapRequestParameter: function(fields )
     {
         var fieldKeys = Object.keys(fields);
         var fieldKeys2 = [];
